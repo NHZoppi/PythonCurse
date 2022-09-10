@@ -7,4 +7,4 @@ print (foods[3])
 print (foods[4])
 
 for food in foods:
-    print (food)
+    print (food)asd
