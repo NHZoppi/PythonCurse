@@ -13,4 +13,5 @@ count = 4
 
 while count <= 10:
     print (count)
-    count = count + 1
+    count = count + 1 # Si esto no estuviera, sigue infinitamente porque 4 siempre es menor a 0 
+    
