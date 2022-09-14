@@ -1,8 +1,4 @@
 #EJERCICIO 1
-
-from operator import truediv
-
-
 def mayor(number1, number2):
     if number1 > number2:
          return number1
@@ -75,6 +71,11 @@ def reverse(Str):
         cont = i + cont
     return cont
 print(reverse("Hola"))
+
+# Mejor forma de hacer el ejercicio con un slice. Seleccionamos todo el string con :: y empezamos de atras para adelante, marcando e indice -1.
+def reverse2(Str):
+    print(Str[::-1])
+reverse2("Carlos")
 
 # Ejercicio 7
 
